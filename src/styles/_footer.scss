@@ -58,6 +58,11 @@
         height: 38px;
         appearance: none;
         padding: 8px;
+        cursor: pointer;
+
+        &:hover {
+            color: lighten(variaveis.$corTextoPrincipal, 20%);
+        }
 
         }
         &:hover{
