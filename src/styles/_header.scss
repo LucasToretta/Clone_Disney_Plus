@@ -20,9 +20,13 @@
     }}}
 
     &__container{
-        padding: 8px 36px;
+        padding: 8px 36px 0;
         display: flex;
         justify-content: space-between;
+        
+        img{
+            height: 60px;
+        }
 
         @media (max-width: 768px) {
             padding: 0 12px 0 20px;
@@ -54,6 +58,7 @@
         height: 50px;
         display: flex;
         align-items: center;
+        margin-top: 6px;
 
     @media (max-width: 768px) {
         font-size: 13px;
